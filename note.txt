@@ -1,0 +1,11 @@
+* use combination of jest and react-test-library
+
+* test(name, fn, timeout)
+ - fn: contains the expectation to test
+ - timeout: an optional argument for specifying how long to wait before aborting the test. default value is 5 sec. 
+
+* Test Driven Developement (TDD)
+ - Test driven development is a software development process where you write tests before writing the software code.
+ - Create tests that verify the functionality of a specific feature
+ - Write software code that will run the tests successfully when re-executed
+ - Refactor the code for optimization while ensuring the tests continue to pass
